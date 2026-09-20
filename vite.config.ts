@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
 import siteConfiguration from './.figma/make/site.json'
-import { createChatHandler } from './server/chat'
+import { createChatHandler } from './api/chat'
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
