@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #FDF6EC;
+  --color-amber-warm: #E8810A;
+  --color-amber-light: #FBE8C3;
+  --color-plum: #6B3F9E;
+  --color-plum-light: #EDE5F8;
+  --color-coral: #E84B3A;
+  --color-green-game: #2E8B57;
+  --color-green-light: #D4EDDA;
+  --color-card: #FFFAF3;
+  --color-ink: #1C1410;
+  --color-ink-muted: #6B5B4E;
+  --color-border: #ECD9C0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #FDF6EC;
+  color: #1C1410;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-bubble-user {
+  background: #6B3F9E;
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble-ai {
+  background: #FFFAF3;
+  color: #1C1410;
+  border-radius: 18px 18px 18px 4px;
+  border: 1.5px solid #ECD9C0;
+}

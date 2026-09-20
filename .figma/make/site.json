@@ -1,0 +1,10 @@
+{
+  "description": "Enhance game night with an AI host that simplifies board game rules, allowing players to focus on fun while easily navigating game setups and questions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
