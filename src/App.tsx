@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 type Screen =
   | "mode-select"
@@ -484,6 +485,7 @@ export default function App() {
           </button>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
